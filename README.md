@@ -8,11 +8,12 @@
 * As a user I can view my balance.
 * As a user I can withdraw money.
 * As a user I can deposit money.
-* Optional: As a user I can register.
+* As a user I can register.
 * Optional: As a user I can view all my transactions.
+* Optional: As a user I can transfer money from my account to another account.
 
 ## Requirements
-* Data is persisted (saved) to an Oracle database with JDBC.
+* Data is persisted (saved) to an Postgres database with JDBC.
     * While you don't know these technologies, use interface driven development and
     start with a concrete implementation that return static data (a List with something for example) or use Serialization and persist data to a text file.
     * Once you learn JDBC and basics of SQL, you can create a new concrete implementation from that interface that you created and proceed to develop the actual data access code.
